@@ -1,30 +1,45 @@
+import LogoFI from "../assets/imagens/Logotipo-FI.png";
+
 export function Header() {
-    return (
-        <header className="w-full bg-white">
-            <div className="max-w-7xl mx-auto flex items-center justify-between px-12 py-6">
+  return (
+    <header className="w-full bg-white">
+      <div className="max-w-7xl mx-auto px-6 h-[320px]">
 
+        <div className="grid grid-cols-[260px_1fr_1fr] h-full items-start gap-x-12">
 
-                {/*LOGO*/}
-                <div className="text-green-600 font-extrabold text-xl leading-tight">
-                    FÁBRICAS <br /> DE IDEIAS
-                </div>
+          {/* Logo */}
+          <div className="flex justify-start">
+            <img
+              src={LogoFI}
+              alt="Fábricas de Ideias"
+              className="h-80 w-auto -mt-20 -ml-36"
+            />
+          </div>
 
+          {/* Menu */}
+          <nav className="hidden md:flex justify-center gap-10  pt-12 font-josefin font-semibold text-[#2B3826] text-xl  tracking-wide">
+            <a href="#" className="hover:opacity-70 transition">Projetos</a>
+            <a href="#" className="hover:opacity-70 transition">Parceiros</a>
+            <a href="#" className="hover:opacity-70 transition">Biblioteca</a>
+            <a href="#" className="hover:opacity-70 transition">Cursos</a>
+            <a href="#" className="hover:opacity-70 transition">Contatos</a>
+            <a href="#" className="hover:opacity-70 transition">Brinquedos Manguetown</a>
+          </nav>
 
-                {/*MENU*/}
-                <nav className="flex items-center gap-8 text-sm font-medium text-gray-700">
-                    <a href="#" className="hover:text-green-600">Projetos</a>
-                    <a href="#" className="hover:text-green-600">Parceiros</a>
-                    <a href="#" className="hover:text-green-600">Bibliotecas</a>
-                    <a href="#" className="hover:text-green-600">Cursos</a>
-                    <a href="#" className="hover:text-green-600">Contatos</a>
-                    <a href="#" className="hover:text-green-600 font-semibold">Brinquedos Manguetown</a>
-                </nav>
+          {/* Botão */}
+          <div className="flex justify-end pt-8">
+            <button className="whitespace-nowrap border-3 border-[#259C38] text-[#2B3826] font-josefin font-extrabold 
+            text-xl tracking-wide px-2 py-4 rounded-md hover:bg-[#259C38] hover:text-white transition">
+              Seja um(a) Parceiro(a)
+           </button>
+          </div>
 
-                {/*BOTÃO*/}
-                <button className="border border-green-600 text-green-600 px-5 py-2 rounded-full text-sm font-medium hover:bg-green-50 transition">
-                Seja um(a) Parceiro(a)
-                </button>
-            </div>
-        </header>
-    )
+        </div>
+
+      </div>
+    </header>
+  );
 }
+
+
+

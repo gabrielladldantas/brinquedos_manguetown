@@ -2,7 +2,7 @@ import LogoFI from "../assets/imagens/Logotipo-FI.png";
 
 export function Footer() {
   return (
-    /* Alterado para border-t-2 para uma linha levemente mais grossa */
+
     <footer className="w-full bg-white border-t-2 border-gray-200 pt-16 pb-8 px-6 md:px-12 font-sans">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12 ">
@@ -20,7 +20,7 @@ export function Footer() {
                 "
               />
 
-              {/* Copyright logo abaixo da logo */}
+              {/* Copyright  */}
               <p className="mt-2 text-gray-900 font-bold text-sm md:text-base text-center">
                 © 2025 Fábricas de Ideias. Todos os direitos reservados.
               </p>
@@ -29,7 +29,7 @@ export function Footer() {
 
           {/* Lado Direito - Redes e Links */}
           <div className="w-full md:w-1/2 flex flex-col gap-10">
-            {/* Ícones de Redes Sociais em SVG */}
+            {/* Ícones de Redes Sociais  */}
             <div className="flex gap-6 items-center text-brand-green">
               {/* WhatsApp */}
               <a href="#" className="hover:scale-110 transition-transform">
@@ -46,7 +46,7 @@ export function Footer() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.27-2.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
               </a>
-              {/* Facebook */}
+              {/* Facebook -Acredito que vá precisar alterar os links*/}
               <a href="#" className="hover:scale-110 transition-transform">
                 <svg
                   width="40"
@@ -87,7 +87,7 @@ export function Footer() {
               </a>
             </div>
 
-            {/* Colunas de Links conforme a imagem */}
+            {/* Colunas de Links */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-y-6 gap-x-4">
               <div className="flex flex-col gap-4">
                 <a

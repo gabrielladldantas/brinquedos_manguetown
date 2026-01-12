@@ -1,4 +1,4 @@
-import heroFullImage from "../assets/imagens/Group 46.png"; // Certifique-se que o nome do arquivo está correto
+import heroFullImage from "../assets/imagens/Group 46.png"; 
 
 export function Hero() {
   return (
@@ -6,8 +6,6 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex justify-center items-center w-full">
           {/* A imagem completa é inserida aqui. 
-            'w-full' faz com que ela ocupe a largura do container.
-            'max-w-screen-xl' evita que ela fique exageradamente grande em monitores muito largos.
           */}
           <img
             src={heroFullImage}

@@ -7,14 +7,13 @@ export function ImpactSection() {
   return (
     <section className="relative w-full bg-white py-20 lg:py-32 overflow-hidden flex items-center min-h-[800px]">
       
-      {/* --- Camada 1: Estrelas Decorativas (Fundo) --- */}
+      {/*  Estrelas Decorativas */}
       <img 
         src={AsteriskGreen}
         alt=""
         className="absolute left-20 top-20 w-20 h-20"
         />
-      {/* --- Camada 2: Imagem do Símbolo (Rotação ajustada para a direita) --- */}
-      {/* Mudamos de rotate-[-12deg] para rotate-[-8deg] para girar um pouco para a direita */}
+      {/* Camada 2*/}
       <div className="hidden lg:block absolute right-[6%] top-[60%] -translate-y-1/2 w-[70%] z-0 transform rotate-[-2deg]">
         <img 
           src={groupImpact} 

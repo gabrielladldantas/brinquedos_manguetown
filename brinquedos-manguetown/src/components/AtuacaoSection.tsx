@@ -25,7 +25,7 @@ export function AtuacaoSection() {
               className="absolute inset-0 w-full h-full object-cover scale-120 object-[50%_20%]"
             />
 
-            {/* Conteúdo (não mexe no botão) */}
+            {/* Conteúdo  */}
             <div className="relative z-10 w-full p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-1/2"></div>
 
@@ -84,7 +84,7 @@ export function AtuacaoSection() {
             </div>
           </div>
 
-          {/* Elemento 4 - Estrela Centralizada */}
+          {/* Elemento 4 - Estrela Centralizada - Precisa Ajustar*/}
           <img
             src={AsteriskLight}
             alt=""
@@ -105,7 +105,7 @@ export function AtuacaoSection() {
           />
         </div>
 
-        {/* --- BANNER FINAL (NOVO) --- */}
+        {/*  BANNER FINAL */}
         <div className="w-full bg-[#004d1a] rounded-[60px] p-10 md:p-14 flex flex-col items-center justify-center gap-8 shadow-lg">
           <h3 className="text-white text-2xl md:text-4xl font-bold text-center">
             Quer fazer parte dessa história?

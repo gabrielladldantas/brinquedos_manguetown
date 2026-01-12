@@ -1,17 +1,30 @@
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { ImpactSection } from "./components/ImpactSection";
-import { AtuacaoSection } from "./components/AtuacaoSection";
-import { Footer } from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+
+import Home from "./pages/Home";
+import Projetos from "./pages/Projetos";
+import Parceiros from "./pages/Parceiros";
+import Biblioteca from "./pages/Biblioteca";
+import Cursos from "./pages/Cursos";
+import Contato from "./pages/Contato";
+import Brinquedos from "./pages/Brinquedos";
+
 function App() {
-    return (
-        <div>
-        <Header /> 
-        <Hero />
-        <ImpactSection />
-        <AtuacaoSection />
-        <Footer />
-        </div>
-    );
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/parceiros" element={<Parceiros />} />
+          <Route path="/biblioteca" element={<Biblioteca />} />
+          <Route path="/cursos" element={<Cursos />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/brinquedos" element={<Brinquedos />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
-export default App
+
+export default App;

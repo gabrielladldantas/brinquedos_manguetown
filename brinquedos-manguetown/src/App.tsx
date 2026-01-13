@@ -8,6 +8,8 @@ import Biblioteca from "./pages/Biblioteca";
 import Cursos from "./pages/Cursos";
 import Contato from "./pages/Contato";
 import Brinquedos from "./pages/Brinquedos";
+import SejaParceiro from "./pages/SejaParceiro";
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path="/cursos" element={<Cursos />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/brinquedos" element={<Brinquedos />} />
+          <Route path="/seja-parceiro" element={<SejaParceiro />} />
         </Route>
       </Routes>
     </BrowserRouter>

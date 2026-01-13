@@ -41,12 +41,13 @@ export function Header() {
 
           {/* Botão */}
           <div className="flex justify-end pt-8">
-            <button
+            <Link
+              to="/seja-parceiro"
               className="whitespace-nowrap border-3 border-[#259C38] text-[#2B3826] font-josefin font-extrabold 
-            text-xl tracking-wide px-2 py-4 rounded-md hover:bg-[#259C38] hover:text-white transition"
-            >
+                text-xl tracking-wide px-6 py-4 rounded-md hover:bg-[#259C38] hover:text-white transition"
+              >
               Seja um(a) Parceiro(a)
-            </button>
+            </Link>
           </div>
         </div>
       </div>

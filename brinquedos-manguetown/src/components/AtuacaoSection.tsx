@@ -7,11 +7,11 @@ import { VistaFrontal } from "../assets/imagens";
 import { AsteriskLight } from "../assets/imagens";
 
 const buttonGreen =
-  "bg-white border-2 border-brand-green text-brand-green px-8 py-3 rounded-2xl font-bold text-lg hover:bg-brand-green hover:text-white transition-all";
+  "bg-[#259C38] border-2 border-brand-green text-white px-8 py-3 rounded-2xl font-bold text-lg hover:bg-brand-green hover:text-white transition-all";
 
 export function AtuacaoSection() {
   return (
-    <section className="w-full bg-white py-12 px-4 md:px-10">
+    <section className="w-full bg-white pt-50 px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         {/* Título */}
         <h2 className="text-brand-green font-josefin text-4xl md:text-6xl font-extrabold text-center mb-16 uppercase tracking-tighter">

@@ -4,18 +4,16 @@ import { Link } from "react-router-dom";
 export function Header() {
   return (
     <header className="w-full bg-white">
-      <div className="max-w-7xl mx-auto px-6 h-[320px]">
+      <div className="max-w-7xl mx-auto px-6 pb-30">
         <div className="grid grid-cols-[260px_1fr_1fr] h-full items-start gap-x-12">
           {/* Logo */}
-          <div className="flex justify-start">
-            <Link to="/" className="block">
+            <Link to="/" className="relative">
               <img
-                src={LogoFI}
-                alt="Fábricas de Ideias"
-                className="h-150 w-auto -mt-40 -ml-40"
+              src={LogoFI}
+              alt="Fábricas de Ideias"
+              className="w-full h-auto absolute -top-10 -left-35 scale-140 hover:scale-145"
               />
             </Link>
-          </div>
 
           {/* Menu */}
           <nav className="hidden md:flex justify-center gap-10 pt-12 font-josefin font-semibold text-[#2B3826] text-xl tracking-wide">
@@ -34,7 +32,7 @@ export function Header() {
             <Link to="/contato" className="hover:opacity-70 transition">
               Contato
             </Link>
-            <Link to="/brinquedos" className="hover:opacity-70 transition">
+            <Link to="/brinquedos" className="hover:opacity-70 transition font-bold text-[#259C38]">
               Brinquedos Manguetown
             </Link>
           </nav>

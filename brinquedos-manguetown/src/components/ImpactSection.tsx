@@ -4,8 +4,8 @@ import groupImpact from "../assets/imagens/Group 19.png";
 
 export function ImpactSection() {
   return (
-    <section className="relative w-full bg-white py-20 lg:py-32 flex items-center min-h-[800px] overflow-visible">
-      {/* ⭐ Estrela VERDE — superior esquerda */}
+    <section className="relative w-full bg-white pt-100 lg:py-32 flex items-center min-h-[800px] overflow-visible">
+      {/* Estrela VERDE — superior esquerda */}
       <img
         src={AsteriskGreen}
         alt=""
@@ -18,7 +18,7 @@ export function ImpactSection() {
   "
       />
 
-      {/* ⭐ Estrela BEGE — inferior esquerda */}
+      {/* Estrela BEGE — inferior esquerda */}
       <img
         src={AsteriskLight}
         alt=""
@@ -32,7 +32,7 @@ export function ImpactSection() {
   "
       />
 
-      {/* ⭐ Estrela BEGE — superior direita */}
+      {/* Estrela BEGE — superior direita */}
       <img
         src={AsteriskLight}
         alt=""
@@ -46,7 +46,7 @@ export function ImpactSection() {
   "
       />
 
-      {/* ⭐ Estrela VERDE — inferior direita */}
+      {/* Estrela VERDE — inferior direita */}
       <img
         src={AsteriskGreen}
         alt=""
@@ -73,7 +73,7 @@ export function ImpactSection() {
         <div className="flex flex-col lg:flex-row">
           {/* Card de texto */}
           <div className="w-full lg:w-[42%] lg:ml-[8%] bg-white rounded-[60px] p-8 md:p-14 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.1)] border border-gray-50 relative z-10">
-            <p className="text-manguetown-green font-sans leading-relaxed text-base md:text-lg mb-10 text-justify lg:text-left">
+            <p className="text-manguetown-green font-sans leading-relaxed text-base md:text-lg mb-10 text-justify">
               A{" "}
               <strong className="text-[#259C38] font-bold">
                 Fábricas de Ideias

@@ -7,7 +7,7 @@ import { VistaFrontal } from "../assets/imagens";
 import { AsteriskLight } from "../assets/imagens";
 
 const buttonGreen =
-  "bg-[#259C38] border-2 border-brand-green text-white px-8 py-3 rounded-2xl font-bold text-lg hover:bg-brand-green hover:text-white transition-all";
+  "bg-[#259C38] border-2 border-green text-white px-8 py-3 rounded-2xl font-bold text-lg hover:bg-brand-green hover:text-white transition-all";
 
 export function AtuacaoSection() {
   return (
@@ -95,10 +95,9 @@ export function AtuacaoSection() {
               -translate-y-1/2
               w-40
               md:w-56
-              lg:w-[200px]
-              opacity-90
               rotate-12
               z-0
+              scale-200
               pointer-events-none
             "
           />

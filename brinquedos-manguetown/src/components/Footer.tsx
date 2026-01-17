@@ -12,9 +12,9 @@ export function Footer() {
   const TIKTOK_LINK = "https://www.tiktok.com/@suapagina";
 
   return (
-    <footer className="w-full bg-white border-t-2 border-gray-200 pt-16 pb-8 px-6 md:px-12 font-sans">
+    <footer className="w-full bg-white border-t-2 border-gray-200 pt-16 pb-8 px-6 font-sans mt-30 justify-center">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-12">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-12">
           {/* Lado Esquerdo - Logo */}
           <div className="w-full md:w-2/3 flex items-start">
             <div className="flex flex-col items-center -ml-40 -mt-60">
@@ -39,7 +39,7 @@ export function Footer() {
                 <img
                   src={WhatsappIcon}
                   alt="WhatsApp"
-                  className="w-[100px] h-[100px] object-contain"
+                  className="w-[50px] h-[50px] object-contain"
                 />
               </a>
 
@@ -52,7 +52,7 @@ export function Footer() {
                 <img
                   src={FacebookIcon}
                   alt="Facebook"
-                  className="w-[100px] h-[100px] object-contain"
+                  className="w-[50px] h-[50px] object-contain"
                 />
               </a>
 
@@ -65,7 +65,7 @@ export function Footer() {
                 <img
                   src={InstagramIcon}
                   alt="Instagram"
-                  className="w-[100px] h-[100px] object-contain"
+                  className="w-[50px] h-[50px] object-contain"
                 />
               </a>
 
@@ -78,7 +78,7 @@ export function Footer() {
                 <img
                   src={TiktokIcon}
                   alt="TikTok"
-                  className="w-[100px] h-[100px] object-contain"
+                  className="w-[50px] h-[50px] object-contain"
                 />
               </a>
             </div>
@@ -145,7 +145,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center items-center mt-20">
+      <div className="w-full flex justify-center items-center">
         <p className="text-gray-900 font-bold text-sm md:text-base text-center whitespace-nowrap">
           © 2025 Fábricas de Ideias. Todos os direitos reservados.
         </p>

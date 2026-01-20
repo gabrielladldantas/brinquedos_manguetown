@@ -147,7 +147,7 @@ export function Footer() {
       </div>
       <div className="w-full flex justify-center items-center">
         <p className="text-gray-900 font-bold text-sm md:text-base text-center whitespace-nowrap">
-          © 2025 Fábricas de Ideias. Todos os direitos reservados.
+          © 2026 Fábricas de Ideias. Todos os direitos reservados.
         </p>
       </div>
     </footer>

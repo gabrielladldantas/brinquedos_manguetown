@@ -35,7 +35,7 @@ export default function Projetos() {
       </div>
 
       {/* Grid com 3 cards centralizados */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-16">
         {PROJETOS_DATA.map((projeto) => (
           <div 
             key={projeto.id} 
@@ -59,6 +59,13 @@ export default function Projetos() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Botão Ver Mais Projetos (Estilo Figma) */}
+      <div className="flex justify-center mt-8 mb-12">
+        <button className="bg-[#259C38] text-white px-10 py-4 rounded-[20px] font-bolota font-bold text-3xl md:text-4xl shadow-md hover:brightness-110 transition-all active:scale-95">
+          Ver Mais Projetos
+        </button>
       </div>
     </main>
   );

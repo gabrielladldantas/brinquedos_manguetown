@@ -4,7 +4,7 @@ const PROJETOS_DATA = [
   { 
     id: 1, 
     titulo: "Recife Águas e Clima", 
-    descricao: "A iniciativa é voltada para o enfrentamento das mudanças climáticas e a conservação dos cursos d'água da cidade e tem como principal público, estudantes de 10 a 13 anos de escolas municipais situadas no entorno do Riacho Cavouco, na Zona Oeste do Recife.",
+    descricao: "A iniciativa é voltada para o enfrentamento das mudanças climáticas e a conservação dos cursos d'água da cidade e tem como principal público alvo, estudantes de 10 a 13 anos de escolas municipais situadas no entorno do Riacho Cavouco, na Zona Oeste do Recife.",
     imagem: "/images/crop.jpg" 
   },
   { 
@@ -24,7 +24,6 @@ const PROJETOS_DATA = [
 export default function Projetos() {
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 bg-white min-h-screen flex flex-col items-center">
-      {/* Cabeçalho centralizado */}
       <div className="text-center mb-16">
         <h1 className="font-bolota font-bold text-[#259C38] text-5xl md:text-6xl mb-4 uppercase tracking-tighter">
           Projetos
@@ -34,7 +33,7 @@ export default function Projetos() {
         </p>
       </div>
 
-      {/* Grid com 3 cards centralizados */}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-16">
         {PROJETOS_DATA.map((projeto) => (
           <div 
@@ -61,7 +60,7 @@ export default function Projetos() {
         ))}
       </div>
 
-      {/* Botão Ver Mais Projetos (Estilo Figma) */}
+      
       <div className="flex justify-center mt-8 mb-12">
         <button className="bg-[#259C38] text-white px-10 py-4 rounded-[20px] font-bolota font-bold text-3xl md:text-4xl shadow-md hover:brightness-110 transition-all active:scale-95">
           Ver Mais Projetos

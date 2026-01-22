@@ -7,9 +7,8 @@ import Parceiros from "./pages/Parceiros";
 import Biblioteca from "./pages/Biblioteca";
 import Cursos from "./pages/Cursos";
 import Contato from "./pages/Contato";
-import Brinquedos from "./pages/Brinquedos";
+import Brinquedos from "./pages/Brinquedos/Brinquedos";
 import SejaParceiro from "./pages/SejaParceiro";
-
 
 function App() {
   return (

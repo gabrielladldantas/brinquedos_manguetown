@@ -6,10 +6,10 @@ import InstagramIcon from "../assets/imagens/instagram.png";
 import TiktokIcon from "../assets/imagens/tiktok.png";
 
 export function Footer() {
-  const WHATSAPP_LINK = "https://wa.me/5599999999999";
-  const FACEBOOK_LINK = "https://www.facebook.com/suapagina";
-  const INSTAGRAM_LINK = "https://www.instagram.com/suapagina";
-  const TIKTOK_LINK = "https://www.tiktok.com/@suapagina";
+  const WHATSAPP_LINK = "https://wa.me/5581994498361";
+  const FACEBOOK_LINK = "https://www.facebook.com";
+  const INSTAGRAM_LINK ="https://www.instagram.com/fabricas_de_ideias?igsh=d2M4ZTU0Nm9hcm5o";
+  const TIKTOK_LINK = "https://www.tiktok.com";
 
   return (
     <footer className="w-full bg-white border-t-2 border-gray-200 pt-16 pb-8 px-6 font-sans mt-30 justify-center">

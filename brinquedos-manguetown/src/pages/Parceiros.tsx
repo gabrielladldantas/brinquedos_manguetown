@@ -22,7 +22,7 @@ export default function Parceiros() {
   return (
     <div className="p-8 max-w-7xl mx-auto bg-white">
       {/* Título */}
-      <h1 className="font-bolota font-bold text-[#259C38] text-5xl mb-2">
+      <h1 className="font-bolota font-bold text-[#259C38] text-5xl md:text-6xl mb-4 uppercase tracking-tighter text-center">
         Parceiros
       </h1>
 
@@ -51,9 +51,7 @@ export default function Parceiros() {
                 Associação Trapeiros de Emaús Recife
               </h2>
 
-              <p className="text-sm text-[#259C38] mb-2">
-                Coleta de resíduos
-              </p>
+              <p className="text-sm text-[#259C38] mb-2">Coleta de resíduos</p>
 
               <p className="text-sm italic mb-3">
                 R. Mamede Simões, 53 <br />

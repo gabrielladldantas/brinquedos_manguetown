@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Boneco from "../assets/imagens/boneco.png";
-import { MaosSensiveis } from "../assets/imagens";
-import { VistaFrontal } from "../assets/imagens";
-import { AsteriskLight } from "../assets/imagens";
+import  MaosSensiveis  from "../assets/imagens/maos-sensiveis.jpg";
+import  VistaFrontal  from "../assets/imagens/vista-frontal.jpg";
+import  AsteriskLight  from "../assets/imagens/asterisk-light.png";
 
 const buttonGreen =
   "bg-[#259C38] border-2 border-green text-white px-8 py-3 rounded-2xl font-bold text-lg hover:bg-brand-green hover:text-white transition-all";

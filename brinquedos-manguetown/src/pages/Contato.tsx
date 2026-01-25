@@ -16,7 +16,7 @@ export default function Contato() {
     <div className="min-h-screen flex flex-col bg-white font-dmsans text-[#2B3826]">
       <main className="grow max-w-7xl mx-auto px-6 py-12 w-full flex flex-col items-center">
         
-        <h1 className="text-6xl font-bold mb-12 text-[#2B3826] uppercase tracking-tight text-center">
+        <h1 className="text-6xl font-bold mb-12 text-[#259C38] uppercase tracking-tight text-center">
           Contato
         </h1>
 

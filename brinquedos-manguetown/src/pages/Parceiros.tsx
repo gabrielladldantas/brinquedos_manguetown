@@ -27,8 +27,8 @@ export default function Parceiros() {
       </h1>
 
       {/* Subtítulo */}
-      <p className="font-josefin font-normal text-[#2B3826] text-xl mb-8">
-        Pontos de coleta de resíduos
+      <p className="font-josefin font-normal text-[#2B3826] text-xl mb-8 text-center">
+        Encontre um de nossos parceiros perto de você!
       </p>
 
       {/* Mapa */}

@@ -1,6 +1,6 @@
 function Card({ img, titulo }: { img: string; titulo: string }) {
   return (
-    <div className="flex flex-col items-center p-4 border-2 border-[#b8860b] rounded-xl bg-white shadow-md hover:scale-105 transition-transform h-full">
+    <div className="flex flex-col items-center p-4 border-2 border-[#b8860b] rounded-xl bg-white shadow-md transition-transform h-full">
       <img
         src={img}
         alt={titulo}
@@ -9,7 +9,7 @@ function Card({ img, titulo }: { img: string; titulo: string }) {
       <h3 className="text-sm font-semibold text-center mb-4 text-gray-800 flex-grow">
         {titulo}
       </h3>
-      <button className="bg-[#2e7d32] text-white px-6 py-2 rounded-lg text-xs font-bold hover:bg-[#1b5e20] transition-colors w-full">
+      <button className="bg-[#259C38] text-white px-6 py-2 rounded-lg text-xs font-bold hover:brightness-110 transition-all w-full">
         Acessar Material
       </button>
     </div>
@@ -24,11 +24,10 @@ export default function Biblioteca() {
       </h1>
 
       <section>
-        <h2 className="text-2xl font-bold mb-8 text-gray-700 border-b-2 border-gray-200 pb-2">
+        <h2 className="text-3xl font-bold mb-8 text-gray-700 border-b-2 border-gray-200 pb-2">
           Negócios
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-          {/* Removida a barra inicial para testar acessibilidade direta da pasta public */}
           <Card
             img="imagens/1economizando.jpg"
             titulo="Economizando Dinheiro"
@@ -43,7 +42,7 @@ export default function Biblioteca() {
       </section>
 
       <section>
-        <h2 className="text-2xl font-bold mb-8 text-gray-700 border-b-2 border-gray-200 pb-2">
+        <h2 className="text-3xl font-bold mb-8 text-gray-700 border-b-2 border-gray-200 pb-2">
           Mulheres
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">

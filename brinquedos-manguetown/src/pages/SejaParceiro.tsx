@@ -79,7 +79,7 @@ export default function SejaParceiro() {
               <br />
               torne um voluntário!
             </p>
-            <button className="mt-6 rounded-xl border-2 border-[#259C38] px-6 py-3 text-lg md:text-xl font-semibold text-[#259C38]">
+            <button className="mt-6 rounded-xl border-2 border-[#259C38] px-6 py-3 text-lg md:text-xl font-semibold text-[#259C38] hover:bg-[#259C38] hover:text-white">
               Entre em Contato Conosco!
             </button>
           </div>
@@ -98,7 +98,7 @@ export default function SejaParceiro() {
               <br />
               contrate nossos serviços!
             </p>
-            <button className="mt-6 rounded-xl border-2 border-[#259C38] px-6 py-3 text-lg md:text-xl font-semibold text-[#259C38]">
+            <button className="mt-6 rounded-xl border-2 border-[#259C38] px-6 py-3 text-lg md:text-xl font-semibold text-[#259C38] hover:bg-[#259C38] hover:text-white">
               Entre em Contato Conosco!
             </button>
           </div>

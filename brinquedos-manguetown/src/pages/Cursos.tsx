@@ -10,12 +10,12 @@ export default function Cursos() {
     <main className="w-full px-6 md:px-12 py-16">
       <div className="max-w-7xl mx-auto">
         {/* TITULO */}
-        <h1 className="text-brand-green font-extrabold text-5xl md:text-6xl mb-16">
+        <h1 className="text-[#259C38] font-extrabold text-5xl md:text-6xl mb-16 text-center">
           CURSOS
         </h1>
 
         {/* EDUCAÇÃO */}
-        <h2 className="text-gray-800 font-bold text-4xl mb-10">
+        <h2 className="text-gray-800 font-bold text-3xl mb-10">
           Educação
         </h2>
 
@@ -44,7 +44,7 @@ export default function Cursos() {
 				  href={WHATSAPP_LINK}
 				  target="_blank"
 				  rel="noopener noreferrer"
-				  className="bg-green-600 text-white font-semibold px-10 py-3 rounded-full w-fit hover:opacity-90 transition"
+				  className="bg-green-600 text-white font-semibold px-10 py-3 rounded-lg w-fit hover:opacity-90 transition"
 				>
 				  Acessar Curso
 				</a>
@@ -55,7 +55,7 @@ export default function Cursos() {
         </div>
 
         {/*  ARTESANATO  */}
-        <h2 className="text-gray-800 font-bold text-4xl mb-10">
+        <h2 className="text-gray-800 font-bold text-3xl mb-10">
           Artesanato
         </h2>
 
@@ -84,7 +84,7 @@ export default function Cursos() {
 				  href={WHATSAPP_LINK}
 				  target="_blank"
 				  rel="noopener noreferrer"
-				  className="bg-green-600 text-white font-semibold px-10 py-3 rounded-full w-fit hover:opacity-90 transition"
+				  className="bg-green-600 text-white font-semibold px-10 py-3 rounded-lg w-fit hover:opacity-90 transition"
 				>
 				  Acessar Curso
 				</a>

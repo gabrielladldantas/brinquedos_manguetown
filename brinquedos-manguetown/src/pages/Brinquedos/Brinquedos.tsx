@@ -16,8 +16,8 @@ export default function BrinquedosManguetown() {
     const [produtoSelecionado, setProdutoSelecionado] = useState<any>(null);
 
     return (
-        <div className="bg-[#2e7d32] min-h-screen p-8">
-            <h1 className="text-white text-4xl font-bold text-center mb-12 uppercase">
+        <div className="bg-white min-h-screen p-8">
+            <h1 className="text-[#259C38] text-6xl font-bold text-center mb-12 uppercase">
                 Brinquedos Manguetown
             </h1>
 
@@ -35,7 +35,7 @@ export default function BrinquedosManguetown() {
                         </div>
                         <button 
                             onClick={() => setProdutoSelecionado(brinquedo)}
-                            className="bg-[#2e7d32] text-white px-4 py-2 rounded-lg text-xs font-bold hover:bg-green-700 w-full transition-colors"
+                            className="bg-[#259C38] text-white px-4 py-2 rounded-lg text-xs font-bold hover:brightness-110 w-full transition-colors"
                         >
                             Ver Produto
                         </button>
@@ -43,7 +43,6 @@ export default function BrinquedosManguetown() {
                 ))}
             </div>
 
-            {/* Modal que abre o Carrinho */}
             {produtoSelecionado && (
                 <div className="fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
                     <div className="relative w-full max-w-md">

@@ -29,17 +29,13 @@ export default function Projetos() {
         <h1 className="font-bolota font-bold text-[#259C38] text-5xl md:text-6xl mb-4 uppercase tracking-tighter text-center">
           Projetos
         </h1>
-        <p className="font-josefin text-[#2B3826] text-xl max-w-2xl mx-auto">
-          Iniciativas que transformam a realidade através da tecnologia, cultura
-          e sustentabilidade.
-        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-16">
         {PROJETOS_DATA.map((projeto) => (
           <div
             key={projeto.id}
-            className="rounded-[60px] border-[5px] border-[#D7A063] p-2 shadow-[0_10px_30px_rgba(0,0,0,0.08)] transition-all duration-300 hover:shadow-xl"
+            className="rounded-[30px] border-[3px] border-[#D7A063] p-2 shadow-[0_10px_30px_rgba(0,0,0,0.08)] transition-all duration-300 hover:shadow-xl"
           >
             <div className="group bg-white rounded-[50px] overflow-hidden flex flex-col">
               <div className="mx-6 mt-6 h-56 overflow-hidden rounded-[32px] border-[3px] border-[#259C38]">

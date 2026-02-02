@@ -1,4 +1,4 @@
-# 🧸 Brinquedos Manguetown
+#  Brinquedos Manguetown
 
 Projeto acadêmico desenvolvido em equipe durante o **curso presencial de Front-end e React da Aponti**, com foco na aplicação prática de conceitos de desenvolvimento web e construção de uma plataforma digital com impacto social.
 
@@ -45,7 +45,7 @@ Projeto desenvolvido em equipe durante o curso da **Aponti**.
 - Projetos
 - <img width="1887" height="1064" alt="image" src="https://github.com/user-attachments/assets/0c1cd847-dccb-49f3-8473-841a02093ed0" />
 
--Loja
+- Loja
 <img width="1900" height="1071" alt="image" src="https://github.com/user-attachments/assets/68a09b5b-be11-4b12-a4db-ea962b2cc43f" />
 
 

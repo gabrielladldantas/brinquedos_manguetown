@@ -37,3 +37,6 @@ Projeto desenvolvido em equipe durante o curso da **Aponti**.
 - Organização de componentes
 - Trabalho em equipe com versionamento de código
 - Desenvolvimento orientado a propósito e impacto social
+
+<img width="1908" height="1069" alt="image" src="https://github.com/user-attachments/assets/2449eeee-8b73-4a00-9e48-aba5734a526a" />
+

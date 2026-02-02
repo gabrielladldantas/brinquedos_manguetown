@@ -38,5 +38,15 @@ Projeto desenvolvido em equipe durante o curso da **Aponti**.
 - Trabalho em equipe com versionamento de código
 - Desenvolvimento orientado a propósito e impacto social
 
+- ## 💻 Páginas
+- Home
 <img width="1908" height="1069" alt="image" src="https://github.com/user-attachments/assets/2449eeee-8b73-4a00-9e48-aba5734a526a" />
+
+- Projetos
+- <img width="1887" height="1064" alt="image" src="https://github.com/user-attachments/assets/0c1cd847-dccb-49f3-8473-841a02093ed0" />
+
+-Loja
+<img width="1900" height="1071" alt="image" src="https://github.com/user-attachments/assets/68a09b5b-be11-4b12-a4db-ea962b2cc43f" />
+
+
 
